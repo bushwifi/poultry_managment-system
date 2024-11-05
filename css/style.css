@@ -1,0 +1,90 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(218deg 50% 91%);
+    height: 100vh;
+    margin: 0;
+}
+
+/* Screen Styles */
+.screen-1 {
+    background: white; /* White background for contrast */
+    padding: 2.5em; /* Increased padding for breathing room */
+    border-radius: 15px; /* Softer corners */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 400px; /* Fixed width for consistency */
+    text-align: center; /* Center-align text */
+}
+
+/* Logo Styles */
+.logo {
+    margin-bottom: 1px; /* Space below logo */
+}
+
+/* Input Styles */
+.email, .password {
+    background: #f9f9f9; /* Light gray background for inputs */
+    padding: 1em; /* Padding for inputs */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 1em 0; /* Vertical margin for spacing */
+}
+
+.email input, .password input {
+    outline: none;
+    border: none;
+    width: 100%; /* Full width inputs */
+    padding: 0.75em; /* Inner padding for inputs */
+    border-radius: 5px; /* Slightly rounded edges for inputs */
+    font-size: 1em; /* Consistent font size */
+}
+
+/* Placeholder Styles */
+.email input::placeholder, .password input::placeholder {
+    color: hsl(0deg 0% 50%); /* Gray placeholder text */
+}
+
+/* Button Styles */
+button.login {
+    padding: 0.75em; /* Padding for button */
+    background: hsl(233deg 36% 38%); /* Dark button color */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s; /* Transition effect for hover */
+}
+
+button.login:hover {
+    background: hsl(233deg 36% 50%); /* Slightly lighter on hover */
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between; /* Space between footer links */
+    font-size: 0.8em; /* Slightly larger footer text */
+    color: hsl(0deg 0% 50%); /* Gray text color */
+    margin-top: 1em; /* Margin above footer */
+}
+
+.footer span {
+    cursor: pointer; /* Pointer cursor for clickable text */
+    color: hsl(233deg 36% 38%); /* Match button color */
+}
+
+.footer span:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
