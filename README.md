@@ -23,3 +23,4 @@ The Poultry Management System is a web application designed to help small to med
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/poultry-management-system.git
+
